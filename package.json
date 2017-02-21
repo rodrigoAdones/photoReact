@@ -1,0 +1,30 @@
+{
+  "name": "photoReact",
+  "version": "1.0.0",
+  "description": "Implementing Pixabay with react components",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch --colors",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "keywords": [],
+  "author": "RodKras",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
